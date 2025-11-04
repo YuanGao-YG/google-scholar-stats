@@ -2,9 +2,9 @@ import json
 import jsonpickle
 
 # 从最新生成的JSON文件中读取数据
-# 假设文件名为"yuguo.json"，请替换为实际生成的文件名
+# 假设文件名为"yuangao.json"，请替换为实际生成的文件名
 try:
-    with open('yuguo.json', 'r') as file:
+    with open('yuangao.json', 'r') as file:
         data_str = json.load(file)
         data = jsonpickle.decode(data_str)
         
