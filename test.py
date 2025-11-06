@@ -110,7 +110,7 @@ def get_scholar_stats(user_id):
 # 测试函数
 def test():
     # 替换为你的Google Scholar ID
-    scholar_id = "yggQMJMAAAAJ"  # 这里替换为你要测试的ID
+    scholar_id = "4JpRnU4AAAAJ"  # 这里替换为你要测试的ID
     
     print(f"开始测试Google Scholar ID: {scholar_id}")
     stats = get_scholar_stats(scholar_id)
